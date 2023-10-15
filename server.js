@@ -13,7 +13,7 @@ app.get('/register',(req,res)=>{
     let options ={
         root: path.join(__dirname+"/views")
     }
-    const filename = "success.html"
+    const filename = "second.html"
     console.log(options.root)
     res.sendFile(filename,options,(err)=>{
         //next()
