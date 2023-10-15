@@ -9,8 +9,5 @@ async function getconnection(){
     await client.connect();
     return client;
 }
-function test(){
-    console.log("test")
-}
 
-module.exports = {getconnection,test}
+module.exports = {getconnection}
